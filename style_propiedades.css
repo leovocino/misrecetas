@@ -1,0 +1,13 @@
+div {
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:24px;*/
+    /* 16px =100% del tamaño por defecto del navegador
+     1em=100% 1rem=100% pero no hereda*/
+    /* font-weight: bold; bold=negrita 700 normal=400 */
+     /*font-style: italic;cursiva*/
+     text-align:center;
+     line-height:2;
+     text-decoration: underline blue;
+     color:rgba(red, green, blue, alpha)
+
+}
