@@ -1,3 +1,4 @@
+
 .padre-flex {
     display:flex;
     width: 800px;
@@ -30,6 +31,30 @@
     margin-bottom: 40px;
     background-color: turquoise;
     color:whitesmoke;
+ 
+}
 
+
+
+.papa {
+    display:flex;
+    background-color: blue;
+    width: 50%;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;/*cuando hay 1 linea que no salta*/
+    align-content:center
+
+    
+    
+
+}
+
+.son {
+    border: 1px solid black;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
 
 }
