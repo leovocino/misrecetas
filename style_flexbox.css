@@ -1,0 +1,35 @@
+.padre-flex {
+    display:flex;
+    width: 800px;
+    height: 600px;
+    background-color:red;
+    flex-direction: row;
+    flex-wrap:wrap; /*wrap,nowrap,wrap-reverse,*/
+    justify-content:space-evenly ; /*por defecto flex-start, flex-end, space-betwenn, space-around*/
+
+}
+
+.hijo-flex {
+    text-align:center;
+    border: 1px solid black;
+    color:whitesmoke;
+    background-color: grey;
+    font-size:40px;
+    width:200px;
+    height: 200px;
+    /* al ser elementos flexibles la anchura se ajusta al contenedor padre
+    para poder cambiarlo se utiliza flex-wrap */
+}
+
+.ejemplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:300px;
+    height:30px ;
+    margin-bottom: 40px;
+    background-color: turquoise;
+    color:whitesmoke;
+
+
+}
