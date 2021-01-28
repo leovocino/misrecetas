@@ -43,11 +43,10 @@
     height: 600px;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;/*cuando hay 1 linea que no salta*/
-    align-content:center
+    align-items: center;/*cuando hay 1 linea que no salta*/
+    align-content:center;
+    justify-content: center;
 
-    
-    
 
 }
 
@@ -56,5 +55,7 @@
     background-color: yellow;
     width: 100px;
     height: 100px;
+    /*flex-grow:0  flex-shrink: 1; por defecto */
+
 
 }
