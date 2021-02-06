@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Mis recetas</title>
-        <meta name="descrition" content="Es una pagina webdestinada a la gastronomia nacional e internacional">
-        <meta name="keywords" content="Gastronomia,Recetas,Arte culinario,Comidas,Gourmet,Cocina nacional, Cocina internacional">
-    </head>
-    <body>
-        <header style="text-align:center;border:1 px solid rgb(240, 215, 215);padding:10px;Margin-bottom:10px">
-            <a href="index.html"><h1>MIS RECETAS</h1></a>
-        </header>
-        <nav style="text-align:center;border:1 px solid#aaa;padding:10px;margin-bottom:10px">
-            Inicio
-            |
-            <a href="Recetas.html">Recetas</a>
-            |
-            <a href="contactar.html">Contactar</a>
-        </nav>
-        <main style="display:flex;border:1px solid goldenrod;padding:60px;margin-bottom:20px">
-            <section style="display:flex;width:75%;padding:5px;justify-content:space-around;row;flex-wrap:wrap;border:2px solid black">
-                <div style="border:1px solid gold;width:40%;padding:10px;margin-bottom:5px">
-                   <h2><a href="">Receta1</a></h2>
-                   <img alt="Pasta al pesto" width="150" heigth="90" src="images/pasta-al-pesto.jpg">
+<html lang: "es">
+<head>
+    <meta charset="utf-8">
+    <title>Mis Recetas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web que contiene recetas de cocina nacional e internacional">
+    <meta name="keywords" content="cocina, gatronomia, recetas, cocina española">
+    <link rel="icon" href="images/logo_misrecetas.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   <div class="container">
+
+    <header id="header" class="block-center-row">
+        <img src="images/logo_misrecetas.png" alt="logo"> 
+    </header>
+    <nav class="nav-main fnt-lg block-center-row mb-2">
+       <ul>
+           <li>Inicio</li>
+           <li>|</li>
+           <li><a href=""> Recetas</a></li>
+           <li>|</li>
+           <li><a href=""> Contactar</a></li>
+       </ul> 
+        
+   </nav>
+   
+   <main class="grid">
+       <section class="col-desk-9 col-tab-6 col-mob-12">
+          <div class="grid">
+                <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
+                    <h2>Asado Negro</h2>
+                    <img src="images/pasta-al-pesto.jpg" alt="Pasta al pesto"></div>
+                <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
+                    <h2>Lomo Wellington</h2>
+                    <img src="images/lomo-wellington.jpg" alt="Lomo Wellington"></div>
+                <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
+                    <h2>Pasta al Pesto</h2>
+                    <img src="images/asado-negro.jpg" alt="Asado Negro"></div>
+                <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
+                    <h2>Tiramisu</h2>
+                    <img src="images/tiramisu2.jpg" alt="Tiramisu"></div>
                 </div>
-                <div style="border:1px solid gold;width:40%;padding:10px;margin-bottom:5px;">
-                    <h2><a href="">receta2</a></h2>
-                   <img alt="Asado Negro" width="150" heigth="90" src="images/asado-negro.jpg">
-                </div>
-                <div style="border:1px solid gold;width:40%;padding:10px;margin-bottom:5px;">
-                    <h2><a href="">Receta3</a></h2>
-                    <img alt="lomo wellington" width="150" heigth="90" src="images/lomo-wellington.jpg">
-                </div>
-                <div style="border:1px solid gold;width:40%;padding:10px;margin-bottom:5px;">
-                    <h2><a href="">Receta4</h2></a>
-                    <img alt="tiramisu" width="150" heigth="90" src="images/tiramisu.jpg">
-                </div>
-            </section>
-            <aside style="width:20%;margin-left:auto;border:2px solid goldenrod;">
-                <h2>Menu del día</h2>
-                <br> 
-                <ul>
-                    <li>receta5</li>
-                    <li>receta6</li>
-                    <li>receta7</li>
-                </ul>
-            </aside>
-        </main>
-        <footer style="text-align:center;border: 1px solid black;padding: 10px; margin-bottom: 10px;">Footer - 2021</footer>
-    </body>
-    <br>
+        </section>
+       <aside class="col-desk-3 col-tab-6 col-tab-12">aside</aside>
+   </main>
+   <footer id="footer" class="block-center-row">Mis Recetas  </footer> 
+   </div>
+
+</body>
 </html>

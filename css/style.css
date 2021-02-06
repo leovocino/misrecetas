@@ -1,0 +1,61 @@
+@import "reset.css";
+@import "basic.css";
+@import "header.css";
+@import "footer.css";
+@import "layout.css";
+@import "text.css";
+@import "grid.css";
+
+
+.nav-main ul {
+    display:flex;
+    color:gray
+}
+.nav-main li {
+    margin-right: .5em;
+}
+.nav-main li:last-child {
+    margin-right: 0;
+}
+.nav-main a {
+    color: black;
+}
+.nav-main a:hover {
+    text-decoration: underline;
+}
+.nav-main .separator {
+    color: cornsilk;
+}
+section img {
+    width: 100%;
+    height: auto;
+}
+
+/*.main-home {
+    display:flex;
+}
+.main-home section {
+    background-color: cadetblue;
+    width: 70%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 5px;
+}
+.main-home section img {
+    width: 100%;
+    height: auto;
+    
+}
+.receta-main {
+    background-color:goldenrod;
+    width: calc(50% - 5px);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.main-home aside {
+    background-color: coral;
+    width: 30%;
+}*/
+
+
+
