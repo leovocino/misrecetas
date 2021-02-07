@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
    <div class="container">
@@ -21,34 +21,60 @@
     <nav class="nav-main fnt-lg block-center-row mb-2">
        <ul>
            <li>Inicio</li>
-           <li>|</li>
-           <li><a href=""> Recetas</a></li>
-           <li>|</li>
-           <li><a href=""> Contactar</a></li>
+           <li class="separator">|</li>
+           <li><a href="Recetas.html"> Recetas</a></li>
+           <li class="separator">|</li>
+           <li><a href="contactar.html"> Contactar</a></li>
        </ul> 
         
    </nav>
    
    <main class="grid">
-       <section class="col-desk-9 col-tab-6 col-mob-12">
+       <section class="col-desk-10 col-tab-8 col-mob-12">
           <div class="grid">
                 <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
-                    <h2>Asado Negro</h2>
-                    <img src="images/pasta-al-pesto.jpg" alt="Pasta al pesto"></div>
+                    <h2 class="head-strong txt-center fnt-md mb-05">Pasta al pesto</h2>
+                    <img class="img-md" src="images/pasta-al-pesto.jpg" alt="Pasta al pesto">
+                </div>
                 <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
-                    <h2>Lomo Wellington</h2>
-                    <img src="images/lomo-wellington.jpg" alt="Lomo Wellington"></div>
+                    <h2 class="head-strong txt-center fnt-md mb-05">Lomo Wellington</h2>
+                    <img class="img-md" src="images/lomo-wellington.jpg" alt="Lomo Wellington">
+                </div>
                 <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
-                    <h2>Pasta al Pesto</h2>
-                    <img src="images/asado-negro.jpg" alt="Asado Negro"></div>
+                    <h2 class="head-strong txt-center fnt-md mb-05">Asado negro</h2>
+                    <img class="img-md" src="images/asado-negro.jpg" alt="Asado Negro">
+                </div>
                 <div class="col-desk-6 col-tab-6 col-mob-12 mb-2">
-                    <h2>Tiramisu</h2>
-                    <img src="images/tiramisu2.jpg" alt="Tiramisu"></div>
+                    <h2 class="head-strong txt-center fnt-md mb-05">Tiramisu</h2>
+                    <img class="img-md" src="images/tiramisu2.jpg" alt="Tiramisu">
+                </div>
                 </div>
         </section>
-       <aside class="col-desk-3 col-tab-6 col-tab-12">aside</aside>
+       <aside class="col-desk-2 col-tab-4 col-mob-12">
+           <h2 class="head-strong fnt-s txt-center mb-05">Menú del día</h2>
+           <div class="bg-ligth pad-1 rounded">
+                <ul class="grid">
+                    <li class="col-mob-4 mb-1">
+                        <h3 class="head-strong mb-05 fnt-s txt-center">Entrante</h3>
+                        <img class="rounded" src="images/pasta-al-pesto.jpg" alt="Pasta al pesto">   
+                    </li>
+                    <li class="col-mob-4 mb-1">
+                        <h3  class="head-strong mb-05 fnt-s txt-center">Principal</h3>
+                    <img class="rounded" src="images/lomo-wellington.jpg" alt="Lomo wellington">   
+                    </li>
+                    <li class="col-mob-4 mb-1">
+                        <h3 class="head-strong mb-05 fnt-s txt-center">Postre</h3>
+                        <img class="rounded" src="images/tiramisu2.jpg" alt="tiramisu">   
+                   </li>
+                </ul>
+               
+            </div>
+       </aside>
    </main>
-   <footer id="footer" class="block-center-row">Mis Recetas  </footer> 
+   <div class="mb-2"></div>
+   <footer id="footer" class="block-center-row  pad-2">
+       Mis Recetas © 2021 
+   </footer> 
    </div>
 
 </body>
