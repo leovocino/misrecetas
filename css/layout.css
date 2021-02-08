@@ -10,6 +10,11 @@
     justify-content: center;
     flex-direction:row;
 }
+.block-center-column {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .row-full { /*cuando quiero que el segmento ocupe el 100% y el contenedor ocupa menos*/
     width: 100vw;
