@@ -3,3 +3,8 @@
     height: 30vh;
     object-fit: cover;
 }
+
+.img-small {
+    width: 400px;
+    height: auto;
+}
